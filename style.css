@@ -1,0 +1,144 @@
+
+    
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bree+Serif&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+    
+    .bi{
+        margin-left: 50px;
+    }
+
+    input[type = text]{
+        width: 680px;
+        border: 1px solid #004ebb;  
+    }
+
+    input[type = text]:focus{
+        border: 3px solid #004ebb;
+        outline: #004ebb;
+
+        
+        
+    } 
+
+    *{
+        list-style-type: none;
+        text-decoration: none;
+    }
+   
+    ul>li{
+        margin-left: 40px;
+    }
+
+    ul > li:nth-of-type(1):hover  .T1{
+        display: block;
+        
+
+    }
+
+    .sp{
+        background-color: #004ebb;
+    }
+
+    .stt{
+        background-image: url('./Image/Site\ 1.bmp');
+        height: 52vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+    }
+
+    .rtt{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        font-family: Bree serif;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .img1{
+        position: absolute;
+        top: 20%;
+        width: 45vw;
+        left: 5%;
+    }
+
+    .stt > a{
+        position: absolute;
+        top: 66%;
+        left: 20%;
+    }
+    .lc{
+        font-family: Nunito Sans;
+        font-size: 20px;
+        background-color: #004ebb;
+    }
+    div:nth-of-type(1){
+        font-family: Nunito Sans;
+    }
+
+    .hd > img:nth-of-type(1){
+        position: absolute;
+        z-index: 3;
+    }
+     
+    .hd > img:nth-of-type(2){
+        position: absolute;
+        height: 60vh;
+        bottom: 0px;
+        z-index: 2;
+    }
+
+    .hd > img:nth-of-type(3){
+        position: absolute;
+        top: 50%;
+        left: 27%;
+        z-index: 10;
+    }
+
+
+    .llc{
+        position: absolute;
+        z-index: 10;
+        top: 30%;
+        left: 43%;
+       
+    }
+
+   .dxl{
+    position: absolute;
+    top: 22%;
+    z-index: 20;
+    background-color: white;
+    
+   }
+
+    
+    
+/*
+|||||||||||||||||||||||||||||||||||||||||||||||||| 
+    Responsiveness For the top part 
+||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+    @media screen and (max-width:573px){
+        .lc > span:nth-of-type(1), span:nth-of-type(2),
+        span:nth-of-type(3), span:nth-of-type(4){
+            display: none;
+        }
+
+       .lc > span:nth-of-type(5){
+        margin-left: -70px;
+       }
+    }
+
+/* 
+|||||||||||||||||||||||||||||||||||||||||||||||||||
+    End of responsiveness 
+|||||||||||||||||||||||||||||||||||||||||||||||||||
+    */
+    

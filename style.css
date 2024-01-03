@@ -34,11 +34,27 @@
         margin-left: 40px;
     }
 
-    ul > li:nth-of-type(1):hover  .T1{
+    ul > li:nth-of-type(1):hover ~.dxl {
         display: block;
-        
-
     }
+
+     .dxl{
+    position: absolute;
+    top: 26%;
+    left: 0%;
+    z-index: 20;
+    background-color: white;
+    display: none;
+    width: 200px;
+    transition: display 10s ; 
+   }
+   /* .dxl:nth-child(1):hover ~ .dmx{
+    display: block;
+    position: absolute;
+    top: 5%;
+    z-index: 20;
+   } */
+
 
     .sp{
         background-color: #004ebb;
@@ -110,14 +126,7 @@
        
     }
 
-   .dxl{
-    position: absolute;
-    top: 22%;
-    z-index: 20;
-    background-color: white;
-    
-   }
-
+  
     
     
 /*

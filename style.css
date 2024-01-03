@@ -19,11 +19,12 @@
 
     input[type = text]:focus{
         border: 3px solid #004ebb;
-        outline: #004ebb;
-
-        
-        
+        outline: #004ebb;  
     } 
+
+    #one{
+        margin-left: -2px;
+    }
 
     *{
         list-style-type: none;
@@ -46,7 +47,7 @@
     background-color: white;
     display: none;
     width: 200px;
-    transition: display 10s ; 
+    transition: display 0.1s ; 
    }
    /* .dxl:nth-child(1):hover ~ .dmx{
     display: block;

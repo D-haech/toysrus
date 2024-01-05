@@ -135,15 +135,69 @@
     Responsiveness For the top part 
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 */
-    @media screen and (max-width:573px){
-        .lc > span:nth-of-type(1), span:nth-of-type(2),
+@media (min-width:1093px) and (max-width:1323px) {
+    .lc > span:nth-of-type(4), span:nth-of-type(2),
+    span:nth-of-type(3){
+        display: none;
+    }
+    .lc > span:nth-of-type(1){
+        margin-left: 40px;
+    }
+
+    .stt{
+        height: 300px;
+    }
+    input[type = text]{
+        width: 400px;
+    }
+    /* .lc{
+        background-color: coral;
+    } */
+}
+   
+
+
+@media screen and (max-width:573px){
+        .lc > span:nth-of-type(5), span:nth-of-type(2),
         span:nth-of-type(3), span:nth-of-type(4){
             display: none;
         }
 
+        .stt{
+            background-size:initial;
+            
+        }
+
+    ul{
+        position: absolute;
+        top: 6%;
+        left: 2%;
+        border: 2px solid grey;
+        background-color: white;
+        border-radius: 15px;
+    }
        .lc > span:nth-of-type(5){
         margin-left: -70px;
        }
+
+       .menu-bar{
+        position: absolute;
+        top: 0%;
+        left: -7%;
+       }
+
+       ul>li{
+        margin-left: -2%;
+        padding: 6px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    input[type = checkbox]:checked ~ ul{
+        display:block;
+    }
     }
 
 /* 

@@ -103,18 +103,21 @@
         position: absolute;
         z-index: 3;
     }
-     
+    
+    .hd{
+        height: 900px;
+    }
     .hd > img:nth-of-type(2){
         position: absolute;
-        height: 60vh;
-        bottom: 0px;
+        height: 90vh;
+        bottom: 10%;
         z-index: 2;
     }
 
     .hd > img:nth-of-type(3){
         position: absolute;
-        top: 50%;
-        left: 27%;
+        top: 40%;
+        left: 39%;
         z-index: 10;
     }
 
@@ -199,6 +202,24 @@
         display:block;
     }
     }
+
+    .hd > img:nth-of-type(2){
+        position: absolute;
+        height: 90vh;
+        bottom: 32%;
+        
+    }
+
+    .llc{
+        position: absolute;
+        
+        top: 15%;
+        left: 20%;
+       
+    }
+
+    
+    
 
 /* 
 |||||||||||||||||||||||||||||||||||||||||||||||||||
